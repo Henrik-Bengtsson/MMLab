@@ -1,0 +1,5 @@
+org.example.provider.DkkConverter
+org.example.provider.NokConverter
+org.example.provider.YenConverter
+org.example.provider.EuroConverter
+org.example.provider.UsdConverter
