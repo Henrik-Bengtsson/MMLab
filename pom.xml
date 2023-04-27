@@ -39,7 +39,7 @@
         <repository>
             <id>github</id>
             <name>GitHub henrik-bengtsson Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/henrik-hengtsson/mmlab</url>
+            <url>https://maven.pkg.github.com/henrik-bengtsson/mmlab</url>
         </repository>
     </distributionManagement>
 
