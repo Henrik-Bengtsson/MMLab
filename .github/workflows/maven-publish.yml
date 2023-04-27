@@ -29,6 +29,11 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
+      exclude: '
+        -org.example.service
+        -org.example.provider
+        -org.example.mmlab
+        '
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
